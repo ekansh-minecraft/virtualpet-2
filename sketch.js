@@ -87,12 +87,6 @@ function draw()
  
   // text("LastFed:" + LastFed,200,95)
 
-  database.ref('/').set({
-
-   'food':bottles.foodStock,
-   'hour':hour()
-
-  })
 
 
   if(gameState == waiting)
